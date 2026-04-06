@@ -1,0 +1,50 @@
+.form-box {
+background: white;
+padding: 25px;
+border-radius: 8px;
+box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+/* Table Design */
+.table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+}
+
+.table th {
+background: #000249;
+color: white;
+padding: 12px;
+text-align: left;
+}
+
+.table td {
+padding: 12px;
+border-bottom: 1px solid #ddd;
+}
+
+.table tr:hover {
+background: #f4f6f9;
+}
+
+/* Status Design */
+.status {
+padding: 6px 12px;
+border-radius: 5px;
+font-size: 13px;
+color: white;
+font-weight: 500;
+}
+
+.status.pending {
+background-color: #f39c12;
+}
+
+.status.approved {
+background-color: #28a745;
+}
+
+.status.rejected {
+background-color: #dc3545;
+}
